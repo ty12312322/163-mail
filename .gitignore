@@ -1,0 +1,11 @@
+# Never commit account credentials or mailbox exports.
+*.env
+!credentials.env.example
+mail_out/
+*.eml
+*.mbox
+*.log
+__pycache__/
+*.py[cod]
+.venv/
+secrets/
